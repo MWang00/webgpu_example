@@ -1,7 +1,7 @@
 import { GUI } from 'dat.gui';
-import computeWGSL from './compute.wgsl?raw';
-import vertWGSL from './vert.wgsl?raw';
-import fragWGSL from './frag.wgsl?raw';
+import computeWGSL from './shaders/compute.wgsl?raw';
+import vertWGSL from './shaders/vertex.wgsl?raw';
+import fragWGSL from './shaders/fragment.wgsl?raw';
 import { quitIfWebGPUNotAvailable } from './util';
 
 const canvas = document.querySelector('canvas') as HTMLCanvasElement;
